@@ -33,7 +33,9 @@
 ## Exercise 1: Accomplish below task to complete this exercise:
 
 a) Install docker on an Ubuntu GCP instance
+
 b) Use docker pull to download docker images on this server
+
 c) Use docker run to run nginx container using this image. Use below parameters for the container
 
   - i. Name: **mynginx**
@@ -45,6 +47,7 @@ c) Use docker run to run nginx container using this image. Use below parameters 
   - iv. Should run in detach mode
   
 d) Login to mynginx container and check the nginx process running or not. Ideally it should be running
+
 e) Check if nginx is accessible on **_http://\<Server\_Pubilc\_IP\>:80_** and you see below page:
 
 ![image](https://github.com/vistasunil/CT_DevOps_WS_Module4/assets/37858762/1ca7b0b7-b76f-44af-b75a-64a5978659ca)
@@ -62,6 +65,7 @@ a) Create a Dockerfile to package below:
   - iv. Uses command as entrypoint: `ENTRYPOINT apachectl -D FOREGROUND`
 
 b) Create a sample html file with some content in the same directory as dockerfile
+
 c) Once above Dockerfile is ready, perform below tasks:
 
   - i. Build the dockerfile with name **ubuntu_apache**
