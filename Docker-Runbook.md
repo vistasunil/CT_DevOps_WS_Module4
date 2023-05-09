@@ -179,7 +179,7 @@ Run this built image, using the following command:
 
 ![image](https://github.com/vistasunil/CT_DevOps_WS_Module4/assets/37858762/d195d2dd-eaca-4e49-ad22-321f8c80c4cc)
 
-  iii. Check if apache is accessible on **_http://\<Server\_Pubilc\_IP\>:81_** and you see the content of html file you created in step **b**.
+  - iii. Check if apache is accessible on **_http://\<Server\_Pubilc\_IP\>:81_** and you see the content of html file you created in step **b**.
 
 ### _Solution:_
 
