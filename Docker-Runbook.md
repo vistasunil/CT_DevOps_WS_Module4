@@ -57,9 +57,13 @@ b) Use docker pull to download docker images on this server
 ![image](https://github.com/vistasunil/CT_DevOps_WS_Module4/assets/37858762/54f46d2b-125e-4844-9c5c-9daad8ddca3c)
 
 c) Use docker run to run nginx container using this image. Use below parameters for the container
-  i. Name: ' **mynginx'**
+
+  i. Name: **mynginx**
+  
   ii. Host port: 80
+  
   iii. Container port: 80
+  
   iv. Should run in detach mode
 
 ### _Solution:_
@@ -85,9 +89,13 @@ e) Check if nginx is accessible on _**http://<Server\_Pubilc\_IP\>:80**_ and you
 ## Exercise 2: Accomplish below task to complete this exercise:**
 
 a) Create a Dockerfile to package below:
+
   i. uses ubuntu docker image
+  
   ii. Install apache2 inside it
+  
   iii. Mount any local html file from host to /var/www/html path of container
+  
   iv. Uses command as entrypoint: `ENTRYPOINT apachectl -D FOREGROUND`
 
 ### _Solution:_
@@ -153,9 +161,13 @@ c) Once above Dockerfile is ready, perform below tasks:
 ![image](https://github.com/vistasunil/CT_DevOps_WS_Module4/assets/37858762/01f9f4b9-74fd-487f-ac26-0e59467869fb)
 
   ii. Spawn a new container using below params:
+  
     * Name: **myapache**
+    
     * Host port: 81
+    
     * Container port: 80
+    
     * Should run in detach mode
 
 ### _Solution:_
