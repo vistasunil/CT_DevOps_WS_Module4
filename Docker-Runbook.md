@@ -58,13 +58,13 @@ b) Use docker pull to download docker images on this server
 
 c) Use docker run to run nginx container using this image. Use below parameters for the container
 
-  i. Name: **mynginx**
+  - i. Name: **mynginx**
   
-  ii. Host port: 80
+  - ii. Host port: 80
   
-  iii. Container port: 80
+  - iii. Container port: 80
   
-  iv. Should run in detach mode
+  - iv. Should run in detach mode
 
 ### _Solution:_
 
@@ -90,13 +90,13 @@ e) Check if nginx is accessible on _**http://<Server\_Pubilc\_IP\>:80**_ and you
 
 a) Create a Dockerfile to package below:
 
-  i. uses ubuntu docker image
+  - i. uses ubuntu docker image
   
-  ii. Install apache2 inside it
+  - ii. Install apache2 inside it
   
-  iii. Mount any local html file from host to /var/www/html path of container
+  - iii. Mount any local html file from host to /var/www/html path of container
   
-  iv. Uses command as entrypoint: `ENTRYPOINT apachectl -D FOREGROUND`
+  - iv. Uses command as entrypoint: `ENTRYPOINT apachectl -D FOREGROUND`
 
 ### _Solution:_
 
@@ -150,7 +150,8 @@ Add the below content in html file
 ![image](https://github.com/vistasunil/CT_DevOps_WS_Module4/assets/37858762/60ecb4b9-0294-4760-94de-9a692e0457a9)
 
 c) Once above Dockerfile is ready, perform below tasks:
-  i. Build the dockerfile with name **ubuntu\_apache**
+
+  - i. Build the dockerfile with name **ubuntu_apache**
 
 ### _Solution:_
 
@@ -160,7 +161,7 @@ c) Once above Dockerfile is ready, perform below tasks:
 
 ![image](https://github.com/vistasunil/CT_DevOps_WS_Module4/assets/37858762/01f9f4b9-74fd-487f-ac26-0e59467869fb)
 
-  ii. Spawn a new container using below params:
+  - ii. Spawn a new container using below params:
   
     * Name: **myapache**
     
